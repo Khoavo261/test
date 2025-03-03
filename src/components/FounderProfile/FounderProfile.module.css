@@ -1,0 +1,74 @@
+.profileSection {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: left;
+  }
+  
+  .profileImageWrapper {
+    flex-shrink: 0;
+  }
+  
+  .profileImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profileInfo {
+    max-width: 500px;
+  }
+  
+  .profileName {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .profileRole {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .profileBio {
+    margin-top: 10px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  /* Phần 3 ô ghi chú bên dưới */
+  .profileHighlights {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 15px;
+  }
+  
+  .highlightCard {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlightTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .highlightDescription {
+    font-size: 14px;
+    color: #555;
+  }
+  
